@@ -25,10 +25,7 @@ public class Health : MonoBehaviour
         }
     }
 s
-    public string test()
-    {
-        return "test";
-    }
+   
     public void ChangeHp(float input)
     {
         hp -= input;
