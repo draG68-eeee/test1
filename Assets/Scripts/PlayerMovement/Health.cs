@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
             }
         }
     }
-s
+
    
     public void ChangeHp(float input)
     {
