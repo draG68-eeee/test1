@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
 
     private IEnumerator Regenerate(){
         while (isAlive){
-            yield return new WaitForSeconds(1);s
+            yield return new WaitForSeconds(1);
             if (hp < 100){
                 
                 ChangeHp(-1);
