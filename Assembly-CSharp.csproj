@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/PlayerMovement/PlayerJump.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement/PlayerDodge.cs" />
+    <Compile Include="Assets/Scripts/Respawning/Checkpoint.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement/PlayerOrienter.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement/DamageTest.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets/PlayerController.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement/ThirdPersonCamera.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement/Health.cs" />
+    <Compile Include="Assets/Scripts/Respawning/PlayerCheckpoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
