@@ -52,9 +52,15 @@ public class Health : MonoBehaviour
     }
 
     private IEnumerator WaitUntilRespawn(){
+        PlayerControllerR playerControllerR = GetComponent<PlayerControllerR>();
+        playerControllerR.enabled = false;
         yield return new WaitForSeconds(5);
         playerCheckpoint.Respawn();
         hp = 100;
         isAlive = true;
+        playerControllerR.enabled = true;
+        StartCoroutine(Regenerate());
+        UpdateHealthBar();
+
     }
 }
